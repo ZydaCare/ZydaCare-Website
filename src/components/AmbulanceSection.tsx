@@ -87,13 +87,13 @@ const AmbulanceSection = () => (
             </div>
             
             {/* Stats */}
-            <div className="absolute -bottom-6 -left-6 bg-accent text-accent-foreground rounded-xl p-4 text-center">
-              <p className="font-heading text-3xl text-primary mb-1">24/7</p>
+            <div className="absolute -bottom-4 -left-4 bg-accent text-accent-foreground rounded-xl p-3 text-center lg:p-4 lg:-bottom-6 lg:-left-6">
+              <p className="font-heading text-2xl lg:text-3xl text-primary mb-1">24/7</p>
               <p className="text-xs font-medium">Emergency Response</p>
             </div>
             
-            <div className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground rounded-xl p-4 text-center">
-              <p className="font-heading text-3xl text-primary mb-1">15min</p>
+            <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground rounded-xl p-3 text-center lg:p-4 lg:-bottom-6 lg:-right-6">
+              <p className="font-heading text-2xl lg:text-3xl text-primary mb-1">15min</p>
               <p className="text-xs font-medium">Avg. Response Time</p>
             </div>
           </div>
