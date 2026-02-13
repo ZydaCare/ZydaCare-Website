@@ -7,6 +7,7 @@ import ValuePropsSection from "@/components/ValuePropsSection";
 import AppDownloadSection from "@/components/AppDownloadSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import CoverageSection from "@/components/Coveragesection";
 
 const Index = () => (
   <div className="min-h-screen">
@@ -17,6 +18,7 @@ const Index = () => (
       <ServicesSection />
       <AmbulanceSection />
       <ValuePropsSection />
+      <CoverageSection />
       <AppDownloadSection />
       <CTASection />
     </main>
