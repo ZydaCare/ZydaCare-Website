@@ -65,7 +65,7 @@ const Contact = () => (
                   </div>
                   <div>
                     <h3 className="font-heading text-xl text-foreground mb-1">WhatsApp</h3>
-                    <a href="https://wa.me/2349161375954" className="text-primary hover:underline text-lg">
+                    <a href="https://wa.me/2349161375954?text=Hi%20ZydaCare%20Support%2C%20I%20need%20help" className="text-primary hover:underline text-lg">
                       +234 916 137 5954
                     </a>
                     <p className="text-sm text-muted-foreground mt-2">
