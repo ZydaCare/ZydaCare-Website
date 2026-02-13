@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Mail, MapPin, ArrowRight } from "lucide-react";
+import { Mail, MapPin, ArrowRight, Phone, MessageCircle, Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
+import { SiTiktok } from "react-icons/si";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -60,6 +61,21 @@ const Contact = () => (
 
                 <div className="flex items-start gap-4">
                   <div className="h-12 w-12 rounded-xl bg-accent flex items-center justify-center shrink-0">
+                    <MessageCircle size={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading text-xl text-foreground mb-1">WhatsApp</h3>
+                    <a href="https://wa.me/2349161375954" className="text-primary hover:underline text-lg">
+                      +234 916 137 5954
+                    </a>
+                    <p className="text-sm text-muted-foreground mt-2">
+                      Get instant support and quick responses via WhatsApp.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="h-12 w-12 rounded-xl bg-accent flex items-center justify-center shrink-0">
                     <MapPin size={20} className="text-primary" />
                   </div>
                   <div>
@@ -69,6 +85,61 @@ const Contact = () => (
                       Serving all of Nigeria, expanding across Africa.
                     </p>
                   </div>
+                </div>
+              </div>
+
+              {/* Social Media */}
+              <div className="mt-12">
+                <h3 className="font-heading text-xl text-foreground mb-4">Follow Us</h3>
+                <p className="text-sm text-muted-foreground mb-6">
+                  Stay connected for updates, health tips, and community support.
+                </p>
+                <div className="flex gap-3">
+                  <a
+                    href="https://facebook.com/zydacare"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 rounded-xl bg-muted hover:bg-muted/80 transition-colors group"
+                    aria-label="Facebook"
+                  >
+                    <Facebook className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
+                  </a>
+                  <a
+                    href="https://twitter.com/zydacare"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 rounded-xl bg-muted hover:bg-muted/80 transition-colors group"
+                    aria-label="Twitter"
+                  >
+                    <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
+                  </a>
+                  <a
+                    href="https://instagram.com/zydacare"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 rounded-xl bg-muted hover:bg-muted/80 transition-colors group"
+                    aria-label="Instagram"
+                  >
+                    <Instagram className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
+                  </a>
+                  <a
+                    href="https://tiktok.com/@zydacare"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 rounded-xl bg-muted hover:bg-muted/80 transition-colors group"
+                    aria-label="TikTok"
+                  >
+                    <SiTiktok className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
+                  </a>
+                  <a
+                    href="https://youtube.com/zydacare"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 rounded-xl bg-muted hover:bg-muted/80 transition-colors group"
+                    aria-label="YouTube"
+                  >
+                    <Youtube className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
+                  </a>
                 </div>
               </div>
             </motion.div>
