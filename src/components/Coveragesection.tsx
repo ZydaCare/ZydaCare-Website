@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { MapPin, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
-import map from '../assets/people.png'
+import map from '../assets/map.png'
 
 const coverageData = [
   {
