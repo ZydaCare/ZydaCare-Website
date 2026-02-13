@@ -14,7 +14,7 @@ const problems = [
   {
     num: "03",
     title: "Unaffordable Care",
-    desc: "Over 70% of healthcare spending comes directly from patients' pockets — making care a luxury.",
+    desc: "Over 70% of healthcare spending comes directly from patients' pockets making care a luxury.",
   },
   {
     num: "04",
@@ -39,7 +39,7 @@ const ProblemsSection = () => (
             Africa's healthcare system is broken.
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            These aren't just statistics — they're the daily reality for over 200 million Nigerians.
+            These aren't just statistics, they're the daily reality for over 200 million Nigerians.
           </p>
         </motion.div>
 

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
+import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
 import logo from "@/assets/logo.png";
+import { SiTiktok } from "react-icons/si";
 
 const Footer = () => (
   <footer className="border-t border-border py-16 bg-background">
@@ -50,19 +52,68 @@ const Footer = () => (
 
         <div>
           <h4 className="text-xs font-semibold uppercase tracking-[0.15em] text-foreground mb-4">Legal</h4>
-          <ul className="space-y-2.5">
+          <ul className="space-y-2.5 mb-6">
             {["Privacy Policy", "Terms of Service"].map((item) => (
               <li key={item}>
                 <span className="text-sm text-muted-foreground">{item}</span>
               </li>
             ))}
           </ul>
+
+          <h4 className="text-xs font-semibold uppercase tracking-[0.15em] text-foreground mb-4">Follow Us</h4>
+          <div className="flex gap-3">
+            <a
+              href="https://facebook.com/zydacare"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors group"
+              aria-label="Facebook"
+            >
+              <Facebook className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+            </a>
+            <a
+              href="https://twitter.com/zydacare"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors group"
+              aria-label="Twitter"
+            >
+              <Twitter className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+            </a>
+            <a
+              href="https://instagram.com/zydacare"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors group"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+            </a>
+            <a
+              href="https://tiktok.com/@zydacare"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors group"
+              aria-label="TikTok"
+            >
+              <SiTiktok className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+            </a>
+            <a
+              href="https://youtube.com/zydacare"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors group"
+              aria-label="YouTube"
+            >
+              <Youtube className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+            </a>
+          </div>
         </div>
       </div>
 
       <div className="mt-14 pt-6 border-t border-border flex flex-col sm:flex-row justify-between gap-4 text-xs text-muted-foreground">
         <p>© {new Date().getFullYear()} ZydaCare. All rights reserved.</p>
-        <p>Built for Africa 🌍</p>
+        <p>Built for Africa</p>
       </div>
     </div>
   </footer>

@@ -19,7 +19,7 @@ const services = [
     features: [
       { icon: Stethoscope, text: "Book appointments with verified doctors" },
       { icon: Home, text: "Request home visits from qualified specialists" },
-      { icon: ClipboardList, text: "Filter by specialty — GP, pediatrics, dermatology, and more" },
+      { icon: ClipboardList, text: "Filter by specialty GP, pediatrics, dermatology, and more" },
       { icon: ShieldCheck, text: "Pay securely within the platform" },
     ],
     doctorBenefit: "Doctors benefit from flexible scheduling, broader patient reach, and income expansion.",
@@ -60,10 +60,10 @@ const services = [
     title: "AI-Powered Symptom Checker",
     subtitle: "Smart Preliminary Guidance",
     tag: "AI-Powered",
-    description: "Our AI triage tool helps users understand their symptoms before seeing a doctor. It provides preliminary guidance to determine if self-care is sufficient or if professional consultation is needed.",
+    description: "Our AI triage tool helps users understand their symptoms before seeing a doctor. It provides preliminary guidance to determine if self care is sufficient or if professional consultation is needed.",
     features: [
       { icon: ClipboardList, text: "Input symptoms and receive possible health guidance" },
-      { icon: Brain, text: "Determine if self-care is sufficient" },
+      { icon: Brain, text: "Determine if self care is sufficient" },
       { icon: Stethoscope, text: "Get routed to the appropriate doctor or pharmacy" },
       { icon: Activity, text: "Reduces unnecessary hospital visits" },
     ],
@@ -101,10 +101,10 @@ const Services = () => (
           >
             <p className="section-label mb-6">Our Services</p>
             <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-foreground leading-[0.95] mb-8">
-              From symptom to follow-up — one platform, complete care.
+              From symptom to follow-up, one platform, complete care.
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              ZydaCare is a unified digital healthcare ecosystem that integrates doctor booking, telemedicine, verified pharmacy, AI symptom checking, and health monitoring — all within one seamless platform.
+              ZydaCare is a unified digital healthcare ecosystem that integrates doctor booking, telemedicine, verified pharmacy, AI symptom checking, and health monitoring all within one seamless platform.
             </p>
           </motion.div>
         </div>

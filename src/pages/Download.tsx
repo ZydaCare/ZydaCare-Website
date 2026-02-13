@@ -31,7 +31,7 @@ const Download = () => (
                 Your health, in your pocket. <em className="text-primary">Coming soon.</em>
               </h1>
               <p className="text-xl text-muted-foreground max-w-xl leading-relaxed mb-10">
-                The ZydaCare mobile app will bring the full power of our healthcare platform to your fingertips. Book doctors, consult remotely, order medications, and manage your health — all from one app.
+                The ZydaCare mobile app will bring the full power of our healthcare platform to your fingertips. Book doctors, consult remotely, order medications, and manage your health all from one app.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">

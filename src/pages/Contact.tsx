@@ -22,7 +22,7 @@ const Contact = () => (
               Let's talk about healthcare.
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              Whether you're a patient seeking care, a doctor looking to expand your practice, a pharmacy wanting to go digital, or an organization interested in partnership — we'd love to hear from you.
+              Whether you're a patient seeking care, a doctor looking to expand your practice, a pharmacy wanting to go digital, or an organization interested in partnership, we'd love to hear from you.
             </p>
           </motion.div>
         </div>
@@ -49,8 +49,8 @@ const Contact = () => (
                   </div>
                   <div>
                     <h3 className="font-heading text-xl text-foreground mb-1">Email Us</h3>
-                    <a href="mailto:hello@zydacare.com" className="text-primary hover:underline text-lg">
-                      hello@zydacare.com
+                    <a href="mailto:wecare@zydacare.com" className="text-primary hover:underline text-lg">
+                      wecare@zydacare.com
                     </a>
                     <p className="text-sm text-muted-foreground mt-2">
                       For general inquiries, partnerships, and support.
@@ -85,22 +85,22 @@ const Contact = () => (
                 {
                   title: "For Patients",
                   desc: "Need help finding a doctor, ordering medications, or using the platform? We're here for you.",
-                  email: "hello@zydacare.com",
+                  email: "wecare@zydacare.com",
                 },
                 {
                   title: "For Doctors",
                   desc: "Interested in joining our network of verified healthcare providers? Let's connect.",
-                  email: "hello@zydacare.com",
+                  email: "wecare@zydacare.com",
                 },
                 {
                   title: "For Pharmacies",
                   desc: "Want to list your pharmacy on our verified marketplace? We'd love to partner.",
-                  email: "hello@zydacare.com",
+                  email: "wecare@zydacare.com",
                 },
                 {
                   title: "For Corporates & HMOs",
                   desc: "Looking for digital healthcare solutions for your employees or members? Let's discuss.",
-                  email: "hello@zydacare.com",
+                  email: "wecare@zydacare.com",
                 },
               ].map((item, i) => (
                 <div
@@ -136,7 +136,7 @@ const Contact = () => (
               We're actively seeking partnerships with hospitals, clinics, pharmacies, health insurers, HMOs, corporate organizations, and government health agencies. Together, we can build a healthier Africa.
             </p>
             <a
-              href="mailto:hello@zydacare.com"
+              href="mailto:wecare@zydacare.com"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-foreground px-7 py-3.5 text-sm font-semibold text-background hover:opacity-80 transition-opacity"
             >
               Reach Out <ArrowRight size={16} />

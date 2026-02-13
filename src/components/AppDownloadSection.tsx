@@ -16,7 +16,7 @@ const AppDownloadSection = () => (
             Your health, in your pocket.
           </h2>
           <p className="text-muted-foreground text-lg max-w-lg leading-relaxed mb-10">
-            Book doctors, consult via video, order genuine medications, and track your health — all from one app. Available soon on iOS and Android.
+            Book doctors, consult via video, order genuine medications, and track your health all from one app. Available soon on iOS and Android.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

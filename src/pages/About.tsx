@@ -13,10 +13,10 @@ const values = [
 ];
 
 const timeline = [
-  { phase: "Phase 1", title: "Foundation", desc: "Building the core platform — doctor booking, telemedicine, and verified pharmacy marketplace for Nigeria." },
-  { phase: "Phase 2", title: "AI & Insurance", desc: "Launching AI symptom checker, health monitoring tools, and HMO/insurance integration for fraud-free claims." },
-  { phase: "Phase 3", title: "Scale Across Africa", desc: "Expanding to other African countries, building the continent's most trusted healthcare super-app." },
-  { phase: "Phase 4", title: "Health Infrastructure Layer", desc: "Becoming the digital health infrastructure backbone — APIs, partnerships, and interoperability across the continent." },
+  { phase: "Phase 1", title: "Foundation", desc: "Building the core platform, doctor booking, telemedicine, and verified pharmacy marketplace for Nigeria." },
+  { phase: "Phase 2", title: "AI & Insurance", desc: "Launching AI symptom checker, health monitoring tools, and HMO/insurance integration for fraud free claims." },
+  { phase: "Phase 3", title: "Scale Across Africa", desc: "Expanding to other African countries, building the continent's most trusted healthcare super app." },
+  { phase: "Phase 4", title: "Health Infrastructure Layer", desc: "Becoming the digital health infrastructure backbone APIs, partnerships, and interoperability across the continent." },
 ];
 
 const About = () => (
@@ -37,7 +37,7 @@ const About = () => (
               Building Africa's most trusted healthcare platform.
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              ZydaCare is a Nigerian-based digital health technology company building trusted healthcare access infrastructure for Africa. We connect patients, licensed doctors, verified pharmacies, and health insurers into one secure ecosystem.
+              ZydaCare is a Nigerian based digital health technology company building trusted healthcare access infrastructure for Africa. We connect patients, licensed doctors, verified pharmacies, and health insurers into one secure ecosystem.
             </p>
           </motion.div>
         </div>
@@ -57,7 +57,7 @@ const About = () => (
                 Not just a telemedicine app.
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                ZydaCare is a trust-first digital health platform designed to solve three of Nigeria's biggest healthcare challenges: limited access to doctors, circulation of counterfeit drugs, and high out-of-pocket healthcare costs.
+                ZydaCare is a trust first digital health platform designed to solve three of Nigeria's biggest healthcare challenges: limited access to doctors, circulation of counterfeit drugs, and high out of pocket healthcare costs.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Through technology, AI-powered tools, and verified provider networks, we deliver convenient, trackable, and reliable healthcare services directly to users' mobile devices. We replace fragmented healthcare access with a single trusted interface.
@@ -74,7 +74,7 @@ const About = () => (
                 An open ecosystem, not a closed loop.
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Unlike EMR-focused companies, single-vertical telemedicine apps, or closed insurance systems, ZydaCare integrates the entire healthcare journey: Symptom → Consultation → Prescription → Drug Delivery → Follow-up.
+                Unlike EMR focused companies, single vertical telemedicine apps, or closed insurance systems, ZydaCare integrates the entire healthcare journey: Symptom → Consultation → Prescription → Drug Delivery → Follow-up.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We operate as an open ecosystem aggregator, bringing together every stakeholder in healthcare to create a seamless experience for all. All in one trusted environment.
@@ -174,7 +174,7 @@ const About = () => (
                 { title: "Doctor License Verification", desc: "Every doctor on our platform goes through a rigorous license verification process to ensure they are qualified and authorized to practice." },
                 { title: "Pharmacy Verification Protocols", desc: "We partner only with licensed pharmacies and verified pharmaceutical vendors, combating counterfeit drugs at the source." },
                 { title: "Secure Digital Payments", desc: "All transactions are processed through secure, encrypted payment channels with full transaction trails." },
-                { title: "Data Protection Compliance", desc: "Patient data is protected using industry-standard encryption and stored in compliance with data protection regulations." },
+                { title: "Data Protection Compliance", desc: "Patient data is protected using industry standard encryption and stored in compliance with data protection regulations." },
                 { title: "Encrypted Health Records", desc: "All health records are encrypted end-to-end, ensuring patient privacy and confidentiality at every level." },
                 { title: "Regulatory Alignment", desc: "ZydaCare operates in alignment with national healthcare authorities and regulatory frameworks across our markets." },
               ].map((item, i) => (
@@ -242,7 +242,7 @@ const About = () => (
               Want to learn more or partner with us?
             </h2>
             <p className="text-background/60 text-lg mb-10 leading-relaxed">
-              Whether you're a patient, doctor, pharmacy, or organization — we'd love to hear from you.
+              Whether you're a patient, doctor, pharmacy, or organization, we'd love to hear from you.
             </p>
             <Link
               to="/contact"

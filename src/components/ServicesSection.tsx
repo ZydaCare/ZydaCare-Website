@@ -46,7 +46,7 @@ const ServicesSection = () => (
       >
         <p className="section-label mb-4">What We Offer</p>
         <h2 className="font-heading text-4xl md:text-5xl text-foreground leading-[1.05]">
-          From symptom to follow-up — one platform, complete care.
+          From symptom to follow-up, one platform, complete care.
         </h2>
       </motion.div>
 
