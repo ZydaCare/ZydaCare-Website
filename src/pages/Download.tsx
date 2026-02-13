@@ -1,13 +1,14 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Apple, PlayCircle, Smartphone, Bell, ArrowRight, Calendar, Video, ShieldCheck, Brain, HeartPulse } from "lucide-react";
+import { Apple, PlayCircle, Smartphone, Bell, ArrowRight, Calendar, Video, ShieldCheck, Brain, HeartPulse, Ambulance } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const features = [
-  { icon: Calendar, title: "Book Doctors", desc: "Find and book verified doctors for in-person or home visits." },
-  { icon: Video, title: "Telemedicine", desc: "Consult via video, voice, or chat from anywhere." },
+  { icon: Calendar, title: "Telemedicine", desc: "Find and book verified doctors for in-person or home visits, via video, voice, or chat from anywhere." },
+  // { icon: Video, title: "Telemedicine", desc: "Consult via video, voice, or chat from anywhere." },
   { icon: ShieldCheck, title: "Order Medications", desc: "Genuine drugs from verified pharmacies, delivered to you." },
+  { icon: Ambulance, title: "Emergency Ambulance", desc: "Request instant ambulance services with real-time tracking." },
   { icon: Brain, title: "AI Symptom Checker", desc: "Get smart guidance before deciding on a doctor visit." },
   { icon: HeartPulse, title: "Health Tracking", desc: "Monitor your health with reminders and digital records." },
 ];
@@ -31,7 +32,7 @@ const Download = () => (
                 Your health, in your pocket. <em className="text-primary">Coming soon.</em>
               </h1>
               <p className="text-xl text-muted-foreground max-w-xl leading-relaxed mb-10">
-                The ZydaCare mobile app will bring the full power of our healthcare platform to your fingertips. Book doctors, consult remotely, order medications, and manage your health all from one app.
+                The ZydaCare mobile app will bring the full power of our healthcare platform to your fingertips. Book doctors, consult remotely, order medications, request emergency ambulances, and manage your health all from one app.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -83,7 +84,7 @@ const Download = () => (
                     One app for all your healthcare needs.
                   </p>
                   <div className="w-full space-y-3">
-                    {["Book Doctors", "Telemedicine", "Order Meds", "AI Guidance", "Health Records"].map((f) => (
+                    {["Book Doctors", "Telemedicine", "Order Meds", "Emergency Ambulance", "AI Guidance", "Health Records"].map((f) => (
                       <div key={f} className="flex items-center gap-3 text-sm text-muted-foreground">
                         <span className="h-1.5 w-4 bg-primary rounded-full shrink-0" />
                         {f}

@@ -20,7 +20,7 @@ const HeroSection = () => (
             wherever you are.
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-md mb-10 leading-relaxed">
-            Verified doctors. Genuine medications. One secure platform built for Africa, starting with Nigeria.
+            Verified doctors. Genuine medications. Emergency ambulance services. One secure platform built for Africa, starting with Nigeria.
           </p>
 
           <div className="flex items-center gap-6">

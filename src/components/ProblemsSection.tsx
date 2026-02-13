@@ -13,13 +13,18 @@ const problems = [
   },
   {
     num: "03",
+    title: "Emergency Response Delays",
+    desc: "Poor ambulance coordination and delayed emergency response times cost lives when every minute counts.",
+  },
+  {
+    num: "04",
     title: "Unaffordable Care",
     desc: "Over 70% of healthcare spending comes directly from patients' pockets making care a luxury.",
   },
   {
-    num: "04",
+    num: "05",
     title: "Fragmented Systems",
-    desc: "Hospitals, pharmacies, and insurers operate in silos. Patients are left navigating chaos alone.",
+    desc: "Hospitals, pharmacies, and ambulance services operate in silos. Patients are left navigating chaos alone.",
   },
 ];
 

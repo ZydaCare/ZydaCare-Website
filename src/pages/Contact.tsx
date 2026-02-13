@@ -22,7 +22,7 @@ const Contact = () => (
               Let's talk about healthcare.
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              Whether you're a patient seeking care, a doctor looking to expand your practice, a pharmacy wanting to go digital, or an organization interested in partnership, we'd love to hear from you.
+              Whether you're a patient seeking care, a doctor looking to expand your practice, a pharmacy wanting to go digital, an ambulance provider seeking dispatch integration, or an organization interested in partnership, we'd love to hear from you.
             </p>
           </motion.div>
         </div>
@@ -53,7 +53,7 @@ const Contact = () => (
                       wecare@zydacare.com
                     </a>
                     <p className="text-sm text-muted-foreground mt-2">
-                      For general inquiries, partnerships, and support.
+                      For general inquiries, partnerships, emergency services coordination, and support.
                     </p>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ const Contact = () => (
               {[
                 {
                   title: "For Patients",
-                  desc: "Need help finding a doctor, ordering medications, or using the platform? We're here for you.",
+                  desc: "Need help finding a doctor, ordering medications, or requesting emergency ambulance services? We're here for you.",
                   email: "wecare@zydacare.com",
                 },
                 {
@@ -98,8 +98,13 @@ const Contact = () => (
                   email: "wecare@zydacare.com",
                 },
                 {
+                  title: "For Ambulance Providers",
+                  desc: "Looking to join our nationwide emergency network with digital dispatch and increased utilization? Let's talk.",
+                  email: "wecare@zydacare.com",
+                },
+                {
                   title: "For Corporates & HMOs",
-                  desc: "Looking for digital healthcare solutions for your employees or members? Let's discuss.",
+                  desc: "Looking for digital healthcare solutions including emergency response coordination for your employees or members? Let's discuss.",
                   email: "wecare@zydacare.com",
                 },
               ].map((item, i) => (
@@ -133,7 +138,7 @@ const Contact = () => (
               Partner with ZydaCare.
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              We're actively seeking partnerships with hospitals, clinics, pharmacies, health insurers, HMOs, corporate organizations, and government health agencies. Together, we can build a healthier Africa.
+              We're actively seeking partnerships with hospitals, clinics, pharmacies, ambulance services, health insurers, HMOs, corporate organizations, and government health agencies. Together, we can build a healthier Africa with better emergency response.
             </p>
             <a
               href="mailto:wecare@zydacare.com"
@@ -158,7 +163,7 @@ const Contact = () => (
               Get the ZydaCare app.
             </h2>
             <p className="text-background/60 text-lg mb-10 leading-relaxed">
-              Our mobile app is coming soon to iOS and Android. Stay tuned for the launch!
+              Our mobile app with emergency ambulance services is coming soon to iOS and Android. Stay tuned for the launch!
             </p>
             <Link
               to="/download"

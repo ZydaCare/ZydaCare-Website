@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {
   Calendar, Video, ShieldCheck, Brain, HeartPulse,
   ArrowRight, Home, MessageSquare, Pill, FileText,
-  Bell, Activity, ClipboardList, Stethoscope
+  Bell, Activity, ClipboardList, Stethoscope, Ambulance
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -65,9 +65,24 @@ const services = [
       { icon: ClipboardList, text: "Input symptoms and receive possible health guidance" },
       { icon: Brain, text: "Determine if self care is sufficient" },
       { icon: Stethoscope, text: "Get routed to the appropriate doctor or pharmacy" },
-      { icon: Activity, text: "Reduces unnecessary hospital visits" },
+      { icon: Ambulance, text: "Emergency ambulance dispatch for critical cases" },
     ],
     doctorBenefit: "Helps improve doctor workload management by filtering cases that truly need professional attention.",
+  },
+  {
+    id: "emergency-ambulance",
+    icon: Ambulance,
+    title: "Emergency Ambulance Services",
+    subtitle: "Nationwide Network",
+    tag: "Emergency",
+    description: "ZydaCare is partnered with licensed ambulance providers across Nigeria to enable instant emergency ambulance requests with real-time dispatch coordination and location tracking.",
+    features: [
+      { icon: Ambulance, text: "Instant emergency ambulance requests" },
+      { icon: Activity, text: "Real-time dispatch coordination and tracking" },
+      { icon: Home, text: "Direct routing to appropriate hospitals" },
+      { icon: ShieldCheck, text: "Integration with patient health records" },
+    ],
+    doctorBenefit: "Ambulance providers gain increased utilization, centralized dispatch visibility, and reduced idle time through digital booking integration.",
   },
   {
     id: "health-monitoring",
@@ -104,7 +119,7 @@ const Services = () => (
               From symptom to follow-up, one platform, complete care.
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              ZydaCare is a unified digital healthcare ecosystem that integrates doctor booking, telemedicine, verified pharmacy, AI symptom checking, and health monitoring all within one seamless platform.
+              ZydaCare is a unified digital healthcare ecosystem that integrates doctor booking, telemedicine, verified pharmacy, AI symptom checking, emergency ambulance services, and health monitoring all within one seamless platform.
             </p>
           </motion.div>
         </div>

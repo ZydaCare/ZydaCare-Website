@@ -37,7 +37,7 @@ const About = () => (
               Building Africa's most trusted healthcare platform.
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              ZydaCare is a Nigerian based digital health technology company building trusted healthcare access infrastructure for Africa. We connect patients, licensed doctors, verified pharmacies, and health insurers into one secure ecosystem.
+              ZydaCare is a Nigerian based digital health technology company building trusted healthcare access infrastructure for Africa. We connect patients, licensed doctors, verified pharmacies, ambulance providers, and health insurers into one secure ecosystem.
             </p>
           </motion.div>
         </div>
@@ -57,7 +57,7 @@ const About = () => (
                 Not just a telemedicine app.
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                ZydaCare is a trust first digital health platform designed to solve three of Nigeria's biggest healthcare challenges: limited access to doctors, circulation of counterfeit drugs, and high out of pocket healthcare costs.
+                ZydaCare is a trust first digital health platform designed to solve Nigeria's biggest healthcare challenges: limited access to doctors, circulation of counterfeit drugs, delayed emergency response, and high out of pocket healthcare costs.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Through technology, AI-powered tools, and verified provider networks, we deliver convenient, trackable, and reliable healthcare services directly to users' mobile devices. We replace fragmented healthcare access with a single trusted interface.
@@ -74,7 +74,7 @@ const About = () => (
                 An open ecosystem, not a closed loop.
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Unlike EMR focused companies, single vertical telemedicine apps, or closed insurance systems, ZydaCare integrates the entire healthcare journey: Symptom → Consultation → Prescription → Drug Delivery → Follow-up.
+                Unlike EMR focused companies, single vertical telemedicine apps, or closed insurance systems, ZydaCare integrates the entire healthcare journey: Symptom → Consultation → Prescription → Drug Delivery → Emergency Response → Follow-up.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We operate as an open ecosystem aggregator, bringing together every stakeholder in healthcare to create a seamless experience for all. All in one trusted environment.

@@ -22,7 +22,7 @@ const Footer = () => (
         <div>
           <h4 className="text-xs font-semibold uppercase tracking-[0.15em] text-foreground mb-4">Services</h4>
           <ul className="space-y-2.5">
-            {["Doctor Booking", "Telemedicine", "Pharmacy", "AI Symptom Checker", "Health Monitoring"].map((item) => (
+            {["Doctor Booking", "Telemedicine", "Pharmacy", "Emergency Ambulance", "AI Symptom Checker", "Health Monitoring"].map((item) => (
               <li key={item}>
                 <Link to="/services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   {item}
@@ -53,9 +53,14 @@ const Footer = () => (
         <div>
           <h4 className="text-xs font-semibold uppercase tracking-[0.15em] text-foreground mb-4">Legal</h4>
           <ul className="space-y-2.5 mb-6">
-            {["Privacy Policy", "Terms of Service"].map((item) => (
-              <li key={item}>
-                <span className="text-sm text-muted-foreground">{item}</span>
+            {[
+              { label: "Privacy Policy", to: "/privacy" },
+              { label: "Terms of Service", to: "/terms" },
+            ].map((item) => (
+              <li key={item.label}>
+                <Link to={item.to} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  {item.label}
+                </Link>
               </li>
             ))}
           </ul>

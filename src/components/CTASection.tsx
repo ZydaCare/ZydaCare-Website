@@ -17,7 +17,7 @@ const CTASection = () => (
             Ready to experience healthcare differently?
           </h2>
           <p className="text-background/60 text-lg max-w-lg leading-relaxed">
-            Join thousands of Nigerians already accessing trusted, affordable, and convenient healthcare through ZydaCare.
+            Join thousands of Nigerians already accessing trusted, affordable, and convenient healthcare including emergency ambulance services through ZydaCare.
           </p>
         </div>
         <div className="lg:col-span-5 flex flex-col sm:flex-row lg:flex-col gap-4">

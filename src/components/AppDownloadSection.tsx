@@ -16,7 +16,7 @@ const AppDownloadSection = () => (
             Your health, in your pocket.
           </h2>
           <p className="text-muted-foreground text-lg max-w-lg leading-relaxed mb-10">
-            Book doctors, consult via video, order genuine medications, and track your health all from one app. Available soon on iOS and Android.
+            Book doctors, consult via video, order genuine medications, request emergency ambulances, and track your health all from one app. Available soon on iOS and Android.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -63,7 +63,7 @@ const AppDownloadSection = () => (
                 One app for all your healthcare needs. Coming to your device soon.
               </p>
               <div className="mt-8 w-full space-y-2">
-                {["Book Doctors", "Telemedicine", "Order Meds", "Health Records"].map((f) => (
+                {["Book Doctors", "Telemedicine", "Order Meds", "Emergency Ambulance", "Health Records"].map((f) => (
                   <div key={f} className="flex items-center gap-2 text-xs text-muted-foreground">
                     <span className="h-1 w-3 bg-primary rounded-full shrink-0" />
                     {f}

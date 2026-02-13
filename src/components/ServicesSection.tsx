@@ -1,25 +1,31 @@
 import { motion } from "framer-motion";
-import { Calendar, Video, ShieldCheck, Brain, HeartPulse, ArrowUpRight, ArrowRight } from "lucide-react";
+import { Calendar, Video, ShieldCheck, Brain, HeartPulse, ArrowUpRight, ArrowRight, Ambulance } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
     icon: Calendar,
-    title: "Doctor Booking",
-    desc: "In-person or home visits with verified specialists.",
+    title: "Telemedicine",
+    desc: "In-person or home visits with verified specialists, video, voice, or chat with licensed doctors. E-prescriptions included.",
     tag: "Booking",
   },
-  {
-    icon: Video,
-    title: "Telemedicine",
-    desc: "Video, voice, or chat with licensed doctors. E-prescriptions included.",
-    tag: "Virtual",
-  },
+  // {
+  //   icon: Video,
+  //   title: "Telemedicine",
+  //   desc: "Video, voice, or chat with licensed doctors. E-prescriptions included.",
+  //   tag: "Virtual",
+  // },
   {
     icon: ShieldCheck,
     title: "Verified Pharmacy",
     desc: "Only genuine medications from licensed pharmacies, delivered to your door.",
     tag: "Pharmacy",
+  },
+  {
+    icon: Ambulance,
+    title: "Emergency Ambulance",
+    desc: "Instant ambulance requests with real-time dispatch coordination nationwide.",
+    tag: "Emergency",
   },
   {
     icon: Brain,
@@ -46,7 +52,7 @@ const ServicesSection = () => (
       >
         <p className="section-label mb-4">What We Offer</p>
         <h2 className="font-heading text-4xl md:text-5xl text-foreground leading-[1.05]">
-          From symptom to follow-up, one platform, complete care.
+          From symptom to emergency response, one platform, complete care.
         </h2>
       </motion.div>
 

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const audiences = [
   {
     label: "Patients",
-    points: ["Verified doctors you can trust", "Genuine medications, always", "Faster consultations, less travel", "Your health history in one place"],
+    points: ["Verified doctors you can trust", "Genuine medications, always", "Emergency ambulance when needed", "Faster consultations, less travel", "Your health history in one place"],
   },
   {
     label: "Doctors",
@@ -14,8 +14,12 @@ const audiences = [
     points: ["Increased digital orders", "Verified patient traffic", "Secure prescription handling", "Expanded market presence"],
   },
   {
+    label: "Ambulance Providers",
+    points: ["Centralized dispatch visibility", "Increased utilization rates", "Digital booking & payments", "Reduced idle time", "Better fleet management"],
+  },
+  {
     label: "Corporates & HMOs",
-    points: ["Digital claims = fraud reduction", "Preventive care lowers costs", "Employee health programs", "Full transparency & audit trails"],
+    points: ["Digital claims = fraud reduction", "Emergency response coordination", "Preventive care lowers costs", "Employee health programs", "Full transparency & audit trails"],
   },
 ];
 
@@ -34,7 +38,7 @@ const ValuePropsSection = () => (
         </h2>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {audiences.map((a, i) => (
           <motion.div
             key={a.label}
