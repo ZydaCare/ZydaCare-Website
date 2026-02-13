@@ -78,7 +78,7 @@ const AmbulanceSection = () => (
                   alt="Emergency Ambulance Service" 
                   className="absolute inset-0 w-full h-full object-cover"
                 />
-              <div className="relative z-10 text-center p-8 bg-black/20 backdrop-blur-sm">
+              <div className="relative z-10 text-center p-8 bg-black/20 backdrop-blur-sm lg:w-auto w-[350px] lg:mt-0 -mt-10 rounded-[8px] lg:rounded-[0px]">
                 <h3 className="font-heading text-2xl text-white mb-2">Emergency Ambulance</h3>
                 <p className="text-sm text-white max-w-xs mx-auto">
                   Instant dispatch • Real-time tracking • Verified providers
